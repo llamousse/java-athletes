@@ -12,20 +12,11 @@ public class MyApplication implements Processor
     }
 
     @Override
-    public void displayAthlete(String sport, String athlete)
+    public void displayAthlete()
     {
-//        System.out.println("************");
-//        athlete.display(sport);
-//        System.out.println("************\n");
-
-        sport = "************\n" + sport;
-        athlete = athlete + "\n************";
-        myAthlete.displayAthlete(sport, athlete);
+		System.out.println("************");
+		myAthlete.displayAthlete();
+		System.out.println("************");
     }
 
-    @Override
-    public String readMessage()
-    {
-        return "Not Implemented";
-    }
 }
